@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="logo">
+        <h1>logo</h1>
+    </div>
+    <div class="bar">
+        <div class="side-bar">
+            <div class="side-bar-top">
+                <a href="#">My Designs</a>
+                <a href="#">Gowns</a>
+                <a href="#">Coprate</a>
+                <a href="#">Materials</a>
+                <a href="#">Shoes</a>
+                <a href="#">Natives</a>
+                <a href="#">Vintage Wears</a>
+            </div>
+            <div class="side-bar-bottom">
+                <a href="#contact">Contact</a>
+                <a href="#newsletter" onclick="myNews()">Newsletter</a>
+                <a href="#subscribe">Subscribe</a>
+            </div>
+        </div>
+        <div class="main-bar">
+            <h2 class="jeans">My Fashion Store</h2>
+            <div class="homepage">
+                <h3>New Arrivals</h3>
+                <p>Collection 2016</p>
+                <button>SHOP NOW</button>
+            </div>
+            <div class="items">
+                <div class="itemsA">
+                    <div class="itemsAA">
+                        <div>
+                            <img src="images/blue.jpg" alt="blue">
+                            <p>Ripped Skinny Jeans</p>
+                            <h4>$24.99</h4>
+                        </div>
+                        <div>
+                            <img src="images/purple.jpg" alt="blue">
+                            <p>Ripped Skinny Jeans</p>
+                            <h4>$24.99</h4>
+                        </div>
+                    </div>
+                    <div class="itemsAA">
+                        <div>
+                            <img src="images/blue.jpg" alt="blue">
+                            <p>Ripped Skinny Jeans</p>
+                            <h4>$24.99</h4>
+                        </div>
+                        <div>
+                            <img src="images/red.jpg" alt="blue">
+                            <p>Ripped Skinny Jeans</p>
+                            <h4>$24.99</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemsB">
+                    <div class="itemsBB">
+                        <div>
+                            <img src="images/blue.jpg" alt="blue">
+                            <p>Mega Ripped Jeans</p>
+                            <h4>$19.99</h4>
+                        </div>
+                        <div>
+                            <img src="images/bike.jpg" alt="blue">
+                            <p>Mega Ripped Jeans</p>
+                            <h4>$19.99</h4>
+                        </div>
+                    </div>
+                    <div class="itemsBB">
+                        <div>
+                            <img src="images/blue.jpg" alt="blue">
+                            <p>Mega Ripped Jeans</p>
+                            <h4>$19.99</h4>
+                        </div>
+                        <div>
+                            <img src="images/yellow.jpg" alt="blue">
+                            <p>Mega Ripped Jeans</p>
+                            <h4>$19.99</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe" id="subscribe">
+                <h2>Subscribe</h2>
+                <p>To get special offers and VIP treatment:</p>
+                <input type="email" name="email" id="email" placeholder="Enter e-mail">
+                <button>Subscribe</button>
+            </div>
+            <div class="contact" id="contact">
+                <div class="contactA">
+                    <h4>Contact</h4>
+                    <p>Questions? Go ahead</p>
+                    <input type="text" name="name" id="contact" placeholder="Name">
+                    <input type="email" name="email" id="contact" placeholder="Email">
+                    <input type="text" name="subject" id="contact" placeholder="Subject">
+                    <input type="text" name="message" id="contact" placeholder="Message">
+                    <button>Send</button>
+                </div>
+                
+                    <div class="contactB">
+                        <h4>About</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">We're hiring</a>
+                        <a href="#">Support</a>
+                        <a href="#">Find store</a>
+                        <a href="#">Shipment</a>
+                        <a href="#">Payment</a>
+                        <a href="#">Gift card</a>
+                        <a href="#">Return</a>
+                        <a href="#">Help</a>
+                    </div>
+                    <div class="contactC">
+                        <h4>Store</h4>
+                        <p>Company Name</p>
+                        <p>070-3512-1021</p>
+                        <p>email@yahoo.com</p>
+                    </div>
+                
+            </div>
+            <div class="newsletter" id="newsletter" style="display: none;">
+                <h2>NEWSLETTER</h2>
+                <P>Join our mailing list to recieve updates on new arrivals and special offers.</P>
+                <input type="email" name="email" id="email">
+                <button onclick="myClose()" id="closebtn">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

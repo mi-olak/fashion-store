@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bar {
+  display: flex;
+  flex-direction: row;
+}
+.side-bar {
+  display: none;
+}
+.main-bar {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+.logo {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: small;
+  padding: 4% 2%;
+}
+.jeans {
+  padding: 2%;
+}
+.homepage,
+.items,
+.contact {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.homepage {
+  background-image: url(images/prettylady.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6% 2% 10% 2%;
+  color: white;
+  margin-bottom: 15%;
+}
+.homepage h3 {
+  font-size: 4rem;
+}
+.homepage p {
+  margin-top: 3%;
+  font-size: 2rem;
+}
+.homepage button {
+  padding: 1.5% 2.5%;
+  background-color: rgb(83, 83, 135);
+  color: white;
+  border: none;
+  margin-top: 5%;
+}
+.items {
+  padding: 7% 2%;
+  margin-bottom: 15%;
+}
+.items img {
+  width: 100%;
+  padding: 2%;
+}
+.itemsA,
+.itemsB {
+  display: flex;
+  flex-direction: column;
+}
+.itemsAA,
+.itemsBB {
+  display: flex;
+  flex-direction: row;
+}
+.itemsAA div,
+.itemsBB div {
+  width: 50%;
+}
+.items p {
+  font-size: small;
+  text-align: center;
+}
+.items h4 {
+  text-align: center;
+}
+.subscribe {
+  background-color: black;
+  color: white;
+  padding: 7% 2%;
+  margin-bottom: 15%;
+}
+.subscribe h2 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-bottom: 2%;
+}
+.subscribe p {
+  font-size: small;
+  margin-bottom: 1.5%;
+}
+.subscribe input {
+  padding: 1%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+.subscribe button {
+  padding: 1.5%;
+  background-color: red;
+  border: none;
+  color: white;
+}
+.contactA {
+  width: 100%;
+  margin-bottom: 8%;
+}
+.contact h4 {
+  text-align: center;
+  font-size: large;
+  padding: 5% 2%;
+}
+.contactA p {
+  text-align: center;
+  font-size: small;
+  margin-bottom: 6%;
+}
+.contactA input {
+  padding: 2%;
+  font-size: 0.7rem;
+  margin-bottom: 2%;
+  width: 100%;
+}
+.contactA button {
+  width: 100%;
+  padding: 2% 5%;
+  background-color: black;
+  color: white;
+}
+.contactB {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 8%;
+}
+.contactB a {
+  margin-bottom: 5%;
+  font-size: 0.7rem;
+}
+.contactC {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: smaller;
+  margin-bottom: 8%;
+}
+.contactC p {
+  margin: 3% 0%;
+}
+@media (min-width: 770px) {
+  .side-bar {
+    display: block;
+    z-index: 3;
+    position: fixed;
+    width: 25%;
+    text-align: center;
+  }
+  .side-bar a {
+    display: flex;
+    flex-direction: column;
+    margin: 4% 0%;
+    padding: 2% 0%;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+  }
+  .side-bar-top {
+    margin-top: 43%;
+  }
+  .side-bar-bottom {
+    border: 1px solid black;
+  }
+  .side-bar-bottom a {
+    font-size: smaller;
+    margin: 1% 0%;
+  }
+  .main-bar {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 75%;
+    left: 25%;
+    position: relative;
+  }
+  .logo {
+    width: 25%;
+    position: fixed;
+  }
+  .newsletter {
+    background-color: black;
+    color: white;
+    padding: 5% 3%;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .newsletter h2 {
+    text-transform: uppercase;
+    font-size: x-large;
+    margin: 2%;
+    text-align: center;
+  }
+  .newsletter p {
+    text-align: center;
+    font-size: smaller;
+  }
+  .newsletter input {
+    width: 100%;
+    padding: 0.5% 2%;
+  }
+  .newsletter button {
+    background-color: red;
+    padding: 1% 2%;
+    border: none;
+    margin-top: 2%;
+    color: white;
+  }
+  .contact{
+    display: flex;
+    flex-direction: row;
+  }
+  .contactA {
+    width: 42%;
+    margin-bottom: 1%;
+  }
+  .contactB {
+    width: 25%;
+    margin-bottom: 1%;
+  }
+  .contactC {
+    width: 33%;
+    margin-bottom: 1%;
+  }
+  .homepage,
+  .items,
+  .subscribe {
+    margin-bottom: 2%;
+  }
+}
